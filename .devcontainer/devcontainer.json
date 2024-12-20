@@ -1,3 +1,26 @@
 {
-
+	"name": "Basic Config", // Application Name
+	"workspaceFolder": "/var/www/html",
+	"settings": {},
+	"extensions": [
+    "formulahendry.auto-rename-tag",
+    "streetsidesoftware.code-spell-checker",
+    "ms-azuretools.vscode-docker",
+    "dbaeumer.vscode-eslint",
+    "hashicorp.terraform",
+    "heybourn.headwind",
+    "bradlc.vscode-tailwindcss",
+    "HTMLHint.vscode-htmlhint",
+    "esbenp.prettier-vscode",
+    "kamikillerto.vscode-colorize",
+    "wk-j.save-and-run",
+    "shd101wyy.markdown-preview-enhanced",
+    "mikestead.dotenv",
+    "patbenatar.advanced-new-file"
+	],
+	"remoteUser": "vscode",
+	"postCreateCommand": "chown -R 1000:1000 /var/www/html"
+	// "forwardPorts": [],
+	// "runServices": [],
+	// "shutdownAction": "none",
 }
